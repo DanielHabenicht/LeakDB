@@ -1,4 +1,7 @@
 function createLabelsMNF(ScNum, respath, timeStamps, BendirName, iszip, gamma, varargin)
+% ScNum = ScenarioNumber
+
+
 
     %% Create labels for MNF
     LScFlows=NaN(ScNum,length(timeStamps));
